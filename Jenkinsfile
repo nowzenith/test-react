@@ -13,6 +13,12 @@ pipeline {
       }
     }
 
+    stage('finish') {
+      steps {
+        echo 'finish'
+      }
+    }
+
   }
   environment {
     test_s = 'abc'
